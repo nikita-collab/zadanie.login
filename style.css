@@ -1,0 +1,54 @@
+*{
+ margin: 0;   
+ padding: 0;
+ box-sizing: border-box;
+}
+
+:root {
+    --dark-color: #361999;
+    --light-color: #78fff1;
+}
+body{
+    height: 100vb;
+background:linear-gradient(to right top ,var(--dark-color), var(--light-color));
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+form{
+    background:rgba(rgb(75, 22, 199), rgb(121, 60, 236)),
+}
+.custom-block{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 80px;
+    background: linear-gradient(to right top, var(#361999), var(#78fff1));
+}
+button{
+    background: linear-gradient(to right top,#361999,#78fff1);
+    border: 1px solid #361999;
+    color:white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 80px; 
+}
+input{
+    background: linear-gradient(to right top, #361999,#78fff1);
+    border:1px solid #78fff1;
+    color: white;
+    padding: 10px 20px;
+    font-size:16px;
+    border-radius: 8px;
+    cursor: pointer;
+margin-left: 10px;
+}
+
+::placeholder{
+    color: white;
+}
